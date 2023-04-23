@@ -55,7 +55,7 @@ const WrappedListComponent = ({
   };
 
   return (
-    <ul style={{ textAlign: 'left' }}>
+    <ul style={{textAlign:'center',width: 'fit-content',display: 'inline-block', fontSize: '30px' }}>
       {items.map((item, index) => (
         <SingleListItem
           onClickHandler={() => handleClick(index)}
